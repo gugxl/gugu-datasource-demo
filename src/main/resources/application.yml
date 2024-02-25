@@ -3,12 +3,12 @@ spring:
     active: dev
   datasource:
     master:
-      jdbc-url: jdbc:mysql://192.168.2.2:3306/mybatis_plus?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      jdbc-url: jdbc:mysql://192.168.2.3:3306/mybatis_plus?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
       username: root
       password: root
       driver-class-name: com.mysql.jdbc.Driver
     slave1:
-      jdbc-url: jdbc:mysql://192.168.2.2:3307/mybatis_plus?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      jdbc-url: jdbc:mysql://192.168.2.3:3307/mybatis_plus?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
       username: root
       password: root
       driver-class-name: com.mysql.jdbc.Driver

@@ -31,7 +31,7 @@ public class UserServiceImpl implements UserService {
     @Master
     @Override
     public int save(User userDO) {
-        return userMapper.insert(userDO);
+         return userMapper.insert(userDO);
     }
 
     @Override
